@@ -1,0 +1,44 @@
+
+body{
+  background-color: #DCDCDC;
+}
+
+.wrapper{
+  max-width: 1000px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+img{
+  max-width: 100%;
+}
+
+.img_button img{
+  display: block;
+}
+
+.img_button:hover{
+  opacity: 0.8;
+}
+
+.content{
+  display: none;
+  padding: 30px;
+}
+
+/* 閉じるボタンのデザイン追加 */
+.close_button{
+  display: inline-block;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: rgb(255, 136, 0);
+  color: #fff;
+  cursor: pointer;
+}
+
+/* じわりと変わるように追加 0.5秒で変化　*/
+.img_button{
+  transition: 0.5s all;
+  cursor: pointer;
+}
