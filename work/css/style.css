@@ -1,12 +1,11 @@
 
 body{
-    background-color: #DCDCDC;
+    line-height: 2;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .wrapper{
-    max-width: 1000px;
     background-color: #fff;
-    margin: 0 auto;
 }
 
 img{
@@ -18,7 +17,7 @@ img{
 }
 
 .img_button:hover{
-    opacity: 0.8;
+    opacity: 0.10;
 }
 
 .content{
@@ -38,24 +37,22 @@ img{
 
 .img_button{
     transition: 0.8s all;
-    cursor: pointer;
+    cusor: pointer
 }
 
-/* 横並び追加 */
-.txt_img{
+.text_img{
     display: flex;
 }
-  
+
 .img{
     width: 20%;
 }
-  
-.txt{
+
+.text{
     width: 80%;
     padding: 10px;
 }
-  
-/* 個別に指定 */
+
 #content02 .close_button{
     background-color: rgb(0, 153, 255);
 }
