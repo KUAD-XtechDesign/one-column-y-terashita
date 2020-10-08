@@ -5,7 +5,9 @@ body{
 }
   
 .wrapper{
+    max-width: 1000px;
     background-color: #fff;
+    margin: 0 auto;
 }
   
 img{
@@ -80,4 +82,12 @@ img{
   
 #img01{
     margin-top: 100px;
+}
+
+#content02 .close_button{
+    background-color: rgb(0, 153, 255);
+}
+  
+#content03 .close_button{
+    background-color: rgb(255, 0, 0);
 }
