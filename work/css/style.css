@@ -37,11 +37,11 @@ img{
     position: absolute;
     right: 30px;
     top: 30px;
-    transition: 0.5s all;
+    transition: 0.9s all;
 }
   
 .img_button{
-    transition: 0.5s all;
+    transition: 0.9s all;
     cursor: pointer;
     max-width: 900px;
     margin: 0 auto 50px;
@@ -57,7 +57,7 @@ img{
     height: 100%;
     top: 0;
     opacity: 0;
-    transition: 0.5s opacity;
+    transition: 0.9s opacity;
 }
   
 .img_button:hover::after{
