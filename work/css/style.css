@@ -4,7 +4,7 @@ h1{
     border-radius: 20px;
     background: #c2e84c;
     padding: 10px;
-    cursor: url(cursor.png),url(cursor.cur),pointer;
+    cursor: pointer;
 }
 
 header{
