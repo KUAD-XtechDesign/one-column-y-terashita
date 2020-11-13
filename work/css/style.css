@@ -191,3 +191,16 @@ img2{
   height: 3px;
   background: linear-gradient(to right, blue,red);
 }
+
+@media(color){
+    body{
+        background-color: white;
+    }
+}
+
+@media(monochrome){
+    body{
+        background-color: wheat;
+        color: black;
+    }
+}
